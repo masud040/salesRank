@@ -35,7 +35,7 @@ export default function FAQ() {
     collapseIcon: "-",
   };
   return (
-    <div className="container py-10 space-y-20">
+    <div className="container py-12 space-y-20">
       {/* Header */}
       <div className="font-questrail flex flex-col md:flex-row justify-start items-start gap-3 lg:gap-10">
         <p className="text-[20px] lg:text-[24px] text-[#001C4A]">

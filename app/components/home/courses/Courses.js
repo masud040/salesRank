@@ -2,7 +2,7 @@ import CourseCard from "./CourseCard";
 
 export default function Courses() {
   return (
-    <div className="container py-10 space-y-12">
+    <div className="container py-12 space-y-12">
       {/* header */}
       <div className="flex-between items-end">
         <div className="w-3/4 font-manrope space-y-[6px]">

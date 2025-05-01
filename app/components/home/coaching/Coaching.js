@@ -5,7 +5,7 @@ import QuickActions from "./QuickActions";
 
 export default function Coaching() {
   return (
-    <div className="container py-10 space-y-[60px]">
+    <div className="container py-12 space-y-[60px]">
       {/* Header */}
       <div className="flex-column gap-2 lg:gap-5 font-questrail">
         <p className="text-[20px] md:text[24px] text-tertiary-500">

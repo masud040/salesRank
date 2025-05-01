@@ -6,7 +6,7 @@ import Image from "next/image";
 import Count from "./Count";
 export default function Banner() {
   return (
-    <section className="container py-10 md:py-16 grid grid-cols-12 gap-0 lg:gap-10">
+    <section className="container py-12 md:py-16 grid grid-cols-12 gap-0 lg:gap-10">
       {/* banner left section */}
       <div className="col-span-12 lg:col-span-5 order-2 lg:order-1 mt-16 lg:mt-0">
         <h1 className="font-medium text-[42px] md:text-[60px] lg:text-[80px] font-manrope max-w-full lg:max-w-[516px] ">
@@ -65,7 +65,7 @@ export default function Banner() {
           alt="Robot"
           className="w-4/5 lg:w-[583px] h-[628px] object-contain"
         />
-        <div className="bg-[#FFFFFF] shadow-custom rounded-[27px]  absolute bottom-0 z-50 left-0 w-[200px] md:w-[300px] lg:w-[467px] px-6 py-8 lg:py-12 space-y-4 lg:space-y-6">
+        <div className="bg-[#FFFFFF] shadow-custom rounded-[27px]  absolute bottom-0 z-30 left-0 w-[200px] md:w-[300px] lg:w-[467px] px-6 py-8 lg:py-12 space-y-4 lg:space-y-6">
           <div className="text-[24px] md:text-[36px] lg:text-[50px] font-semibold text-primary-600 font-manrope flex-between items-center">
             <h2>721+</h2>
             <h2>1000+</h2>

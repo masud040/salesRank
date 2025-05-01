@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navlink from "./Navlink";
 export default function Navbar() {
   return (
-    <nav className="container py-[30px] flex-between items-center">
+    <nav className="container z-50 fixed py-[30px] flex-between items-center bg-white drop-shadow-2xl">
       <ul className="flex-start gap-6 md:gap-14 lg:gap-[74px]">
         <li className="hidden lg:block">
           <Image src={Logo} alt="logo" width={238} height={48} />

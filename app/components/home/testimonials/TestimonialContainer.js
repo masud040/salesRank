@@ -6,7 +6,7 @@ import TestimonialCard from "./TestimonialCard";
 export default function TestimonialContainer() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <div className="container py-10">
+    <div className="container py-12">
       <Swiper
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
         spaceBetween={50}
