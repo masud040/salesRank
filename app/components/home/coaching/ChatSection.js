@@ -39,7 +39,7 @@ export default function ChatSection() {
           </div>
         </div>
       </div>
-      <form className="bg-white px-4 md:px-8 pt-4 pb-6 rounded-b-[12px] h0[100px] space-y-4">
+      <form className="bg-white px-4 md:px-8 pt-4 pb-6 rounded-b-[12px] space-y-4">
         <div className="flex items-center gap-3 flex-wrap md:flex-nowrap">
           {suggestions.map((suggestion) => (
             <button

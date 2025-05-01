@@ -7,8 +7,11 @@
   --color-primary-500: #002868;
   --color-primary-600: #0f3676;
   --color-tertiary-500: #fce38a;
-  --color-secondary-200: #f2f3f3;
+  --color-secondary-200: #efefef;
+  --color-secondary-300: #909090;
   --color-secondary-400: #05131db2;
+  --color-secondary-500: #6d6d6d;
+  --color-secondary-600: #323232;
   --color-white: #ffffff;
 
   /* font */

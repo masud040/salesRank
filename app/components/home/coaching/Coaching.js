@@ -15,12 +15,12 @@ export default function Coaching() {
           Take a Suggestion Coaching{" "}
         </h4>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 lg:gap-[22px]">
-        <div className="col-span-7 flex-center justify-center items-center gap-4 md:gap-6">
+      <div className="grid grid-cols-12 gap-[24px]">
+        <div className="col-span-12 lg:col-span-7 flex-center justify-center items-center gap-4 md:gap-6">
           <ChatSection />
           <ChatReactions />
         </div>
-        <div className="border col-span-5">
+        <div className="col-span-12 lg:col-span-5">
           <Analysis />
           <QuickActions />
         </div>
