@@ -9,7 +9,7 @@ export default function Navlink({ name, href }) {
     <li>
       <Link
         href={href}
-        className={`font-semibold text-[14px] font-plus_jakarta_sans ${
+        className={`h5-semibold font-plus_jakarta_sans ${
           pathName === href && "text-blue-700"
         } transition-colors duration-300`}
       >

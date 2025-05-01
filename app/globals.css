@@ -75,9 +75,15 @@
     @apply text-[18px] font-semibold;
   }
   .h3-normal {
-    @apply text-[18px] font-normal;
+    @apply text-[18px];
   }
   .h3-bold {
     @apply text-[18px] font-bold;
+  }
+  .h5-normal {
+    @apply text-[14px];
+  }
+  .h5-semibold {
+    @apply text-[14px] font-semibold;
   }
 }

@@ -36,7 +36,7 @@ export default function Banner() {
             </div>
             <div className="text-[20px] md:text-[36px] font-semibold font-manrope">
               <Count number={2000} /> +
-              <p className="text-secondary-400 text-[15px] md:text-[18px] font-medium">
+              <p className="text-secondary-400 text-[15px] md:h5-normal font-medium">
                 Your protection
               </p>
             </div>
@@ -70,7 +70,7 @@ export default function Banner() {
             <h2>721+</h2>
             <h2>1000+</h2>
           </div>
-          <p className="font-semibold text-[18px] md:text-[27.98px] font-manrope">
+          <p className="font-semibold h5-normal md:text-[27.98px] font-manrope">
             Growth is our priority.
           </p>
           <p className="text-[15px] md:text-[17px] font-medium font-poppins">

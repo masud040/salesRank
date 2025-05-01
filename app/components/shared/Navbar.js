@@ -15,7 +15,7 @@ export default function Navbar() {
         <Navlink name="Consulting" href="/consulting" />
         <Navlink name="AI Coach" href="/ai-coach" />
       </ul>
-      <button className="border px-[16px] h-9 md:h-[48px] rounded-full border-black font-bold text-[14px] md:text-[16px] font-manrope hidden lg:block">
+      <button className="border px-[16px] h-9 md:h-[48px] rounded-full border-black font-bold h5-normal md:text-[16px] font-manrope hidden lg:block">
         Get Started
       </button>
     </nav>
