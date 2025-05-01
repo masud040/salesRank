@@ -1,13 +1,21 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-black: "#010205";
-  --color-white: "";
+  /* color */
+  --color-black: #010205;
+  --color-primary-600: #00245f;
+  --color-secondary-400: #05131db2;
+  --color-white: #ffffff;
+
+  /* font */
   --font-manrope: var(--font-manrope);
   --font-lato: var(--font-lato);
   --font-questrail: var(--font-questrail);
   --font-plus_jakarta_sans: var(--font-plus_jakarta_sans);
   --font-poppins: var(--font-poppins);
+
+  /* shadow */
+  --shadow-custom: rgba(0, 0, 0, 0.3) 15.57px 16.69px 20.47px;
 }
 @layer base {
   * {

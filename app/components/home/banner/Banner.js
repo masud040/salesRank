@@ -3,13 +3,16 @@ import BackupTable from "@/public/assets/icons/backup_table.svg";
 import Bot1 from "@/public/assets/images/bot1.png";
 import Bot2 from "@/public/assets/images/bot2.png";
 import Image from "next/image";
+import Count from "./Count";
 export default function Banner() {
   return (
-    <section className="pt-8 md:pt-16 lg:pth[82px] flex flex-col-reverse lg:flex-row justify-between gap-10 ">
-      <div className="flex-1">
-        <h1 className="font-medium text-[42px] md:text-[60px] lg:text-[80px] font-manrope top-[10px] md:top-[18px] max-w-full lg:max-w-[516px] ">
+    <section className="pt-8 md:pt-10 grid grid-cols-1 lg:grid-cols-12 gap-10">
+      {/* banner left section */}
+      <div className="lg:col-span-5 order-2 lg:order-1 mt-16 lg:mt-0">
+        <h1 className="font-medium text-[42px] md:text-[60px] lg:text-[80px] font-manrope max-w-full lg:max-w-[516px] ">
           Your AI-Powered Sales Coach
         </h1>
+
         <div className="flex-between items-center gap-8 mt-[26px]">
           <Image
             src={Bot2}
@@ -22,24 +25,59 @@ export default function Banner() {
             strategies powered by advanced AI technology.
           </p>
         </div>
-        <div className="flex-start mt-[92px]">
-          <div>
-            <div className="bg-white p-4 rounded-full shadow-lg">
+        <div className="flex-between mt-[82px] gap-6">
+          <div className="flex-start gap-6 w-[288px]">
+            <div className="h-[60px] w-[70px] md:h-[86px] md:w-[89px] rounded-[15.57px] shadow-custom bg-white flex-center">
               <Image
                 src={BackupTable}
                 alt="Backup Table"
-                height={55}
-                width={55}
+                className="size-[35px] md:size-[55px]"
               />
             </div>
+            <div className="text-[20px] md:text-[36px] font-semibold font-manrope">
+              <Count number={2000} /> +
+              <p className="text-secondary-400 text-[15px] md:text-[18px] font-medium">
+                Your protection
+              </p>
+            </div>
           </div>
-          <div>
-            <Image src={Atr} alt="Atr" height={55} width={55} />
+          <div className="flex-start gap-6 w-[288px]">
+            <div className="h-[60px] w-[70px] md:h-[86px] md:w-[89px] rounded-[15.57px] shadow-custom bg-white flex-center">
+              <Image
+                src={Atr}
+                alt="Atr"
+                className="size-[35px] md:size-[55px]"
+              />
+            </div>
+            <div className="text-[20px] md:text-[36px] font-semibold font-manrope">
+              <Count number={7001} /> +
+              <p className="text-secondary-400 text-[15px] md:text-[18px] font-medium">
+                Provide tailored
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex-1">
-        <Image src={Bot1} alt="Robot" className="w-full object-contain" />
+      {/* banner right section */}
+      <div className="relative lg:col-span-7 flex items-start justify-end order-1 lg:order-2">
+        <Image
+          src={Bot1}
+          alt="Robot"
+          className="w-4/5 lg:w-[583px] object-contain"
+        />
+        <div className="bg-[#FFFFFF] shadow-custom rounded-[27px]  absolute -bottom-[70px] md:-bottom-[100px] lg:bottom-10 z-50 left-0 w-[200px] md:w-[300px] lg:w-[467px] p-4 lg:p-6 space-y-6">
+          <div className="text-[24px] md:text-[36px] lg:text-[50px] font-semibold text-primary-600 font-manrope flex-between items-center">
+            <h2>721+</h2>
+            <h2>1000+</h2>
+          </div>
+          <p className="font-semibold text-[18px] md:text-[27.98px] font-manrope">
+            Growth is our priority.
+          </p>
+          <p className="text-[15px] md:text-[17px] font-medium font-poppins">
+            As a full-service business agency, we specialize in helping
+            companies of all sizes optimize their operations
+          </p>
+        </div>
       </div>
     </section>
   );
