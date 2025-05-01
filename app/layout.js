@@ -46,8 +46,17 @@ export default function RootLayout({ children }) {
       <body
         className={`${manrope.variable} ${lato.variable}  ${questrail.variable} ${plus_jakarta_sans.variable} ${poppins.variable} antialiased max-w-[1920px] mx-auto`}
       >
-        <Navbar />
-        {children}
+        <div
+          className="pointer-events-none fixed top-0 left-0 w-full h-full z-0 opacity-5 bg-[url('../public/assets/images/backgroundnoise.png')] bg-repeat"
+          style={{ backgroundSize: "auto" }}
+        />
+
+        {/* Blur Overlay */}
+        <div className="pointer-events-none fixed top-0 left-0 w-full h-full z-10 backdrop-blur-[64px]" />
+        <div className="relative z-20">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -2,6 +2,7 @@
 
 @theme inline {
   --color-black: "#010205";
+  --color-white: "";
   --font-manrope: var(--font-manrope);
   --font-lato: var(--font-lato);
   --font-questrail: var(--font-questrail);
@@ -12,10 +13,6 @@
   * {
     @apply p-0 m-0 scroll-smooth;
   }
-  /* body {
-    @apply bg-[url('../public/assets//images/backgroundnoise.png')]
-     bg-repeat opacity-60 backdrop-blur-[64px];
-  } */
 
   ::-webkit-scrollbar {
     width: 6px;
@@ -41,7 +38,7 @@
   }
 
   .flex-between {
-    @apply flex justify-between items-center;
+    @apply flex justify-between;
   }
 
   .flex-end {
@@ -56,5 +53,8 @@
   }
   .grid-center {
     @apply grid justify-center;
+  }
+  .container {
+    @apply max-w-[1440px] mx-auto w-full px-[24px] md:px-[40px];
   }
 }
