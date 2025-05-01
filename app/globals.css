@@ -7,11 +7,13 @@
   --color-primary-500: #002868;
   --color-primary-600: #0f3676;
   --color-tertiary-500: #fce38a;
+  --color-secondary-100: #f0f0f0;
   --color-secondary-200: #efefef;
   --color-secondary-300: #909090;
   --color-secondary-400: #05131db2;
   --color-secondary-500: #6d6d6d;
   --color-secondary-600: #323232;
+  --color-secondary-700: #262626;
   --color-white: #ffffff;
 
   /* font */
@@ -77,6 +79,7 @@
   .h3-semibold {
     @apply text-[18px] font-semibold;
   }
+
   .h3-normal {
     @apply text-[18px];
   }
@@ -86,7 +89,13 @@
   .h5-normal {
     @apply text-[14px];
   }
+  .h5-medium {
+    @apply text-[14px] font-medium;
+  }
   .h5-semibold {
     @apply text-[14px] font-semibold;
+  }
+  .basic-btn {
+    @apply bg-primary-500 font-manrope text-[16px] md:text-[18px] font-medium text-white rounded-[8px] px-6 py-[14px] md:py-[18px];
   }
 }

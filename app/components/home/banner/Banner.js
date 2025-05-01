@@ -20,7 +20,7 @@ export default function Banner() {
             objectFit="contain"
             alt="Bot2"
           />
-          <p className="font-medium text-[16px] md:text-[20px]">
+          <p className="font-medium text-[16px] md:text-[20px] ">
             Get real-time coaching, script suggestions, and deal-closing
             strategies powered by advanced AI technology.
           </p>

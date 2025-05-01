@@ -1,5 +1,6 @@
 import Banner from "./components/home/banner/Banner";
 import Coaching from "./components/home/coaching/Coaching";
+import Courses from "./components/home/courses/Courses";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <div className="bg-gradient-to-r from-primary-600 to-primary-400">
         <Coaching />
       </div>
+      <Courses />
     </>
   );
 }
