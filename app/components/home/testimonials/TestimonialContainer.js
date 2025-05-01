@@ -3,12 +3,13 @@ import { useState } from "react";
 import "swiper/css/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import TestimonialCard from "./TestimonialCard";
-export default function TestimonialCotainer() {
+export default function TestimonialContainer() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="container py-10">
       <Swiper
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+        spaceBetween={50}
         slidesPerView={1}
         loop={false}
       >

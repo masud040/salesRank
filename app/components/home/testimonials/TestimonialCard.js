@@ -6,7 +6,7 @@ export default function TestimonialCard({ clientName, activeIndex }) {
   const swiper = useSwiper();
 
   return (
-    <div className="font-manrope space-y-10 lg:space-y-[74px] px-16">
+    <div className="font-manrope space-y-10 lg:space-y-[74px] px-6 lg:px-16">
       <p className="font-semibold text-[24px] md:text-[36px] text-[#010205]">
         “They thoroughly analyze our industry and target audience, allowing them
         to develop customized campaigns that effectively reach and engage our
@@ -14,16 +14,16 @@ export default function TestimonialCard({ clientName, activeIndex }) {
         us stay ahead of the competition.”
       </p>
       <div className="flex justify-between items-center">
-        <div className="flex-start gap-6">
+        <div className="flex-start gap-4 md:gap-6">
           <div className="rounded-full bg-[#D9D9D9] p-5 md:p-8" />
-          <div className="space-y-4">
+          <div className="space-y-2 md:space-y-4">
             <h6 className="text-[20px] font-bold text-[#010205]">
               {clientName}
             </h6>
             <p className="font-medium text-[#878C91]">CEO of Basecamp Corp</p>
           </div>
         </div>
-        <div className="flex-start gap-6 md:gap-[38px]">
+        <div className="flex-between items-center gap-2 md:gap-[38px]">
           <button
             className={`border border-[#00245F] text-[#00245F] rounded-[70px] px-4 md:px-8 py-2 md:py-4 hover:bg-primary-600 hover:text-white transition-all duration-300 ${
               activeIndex === swiper.slides.length - 1 &&
