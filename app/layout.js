@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
         <div className="pointer-events-none fixed top-0 left-0 w-full h-full z-10 backdrop-blur-[64px]" />
         <div className="relative z-20">
           <Navbar />
-          {children}
+          <div className="pt-[84px] lg:pt-[108px]">{children}</div>
         </div>
       </body>
     </html>
