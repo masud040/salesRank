@@ -1,4 +1,5 @@
 import Analysis from "./Analysis";
+import ChatReactions from "./ChatReactions";
 import ChatSection from "./ChatSection";
 import QuickActions from "./QuickActions";
 
@@ -15,8 +16,9 @@ export default function Coaching() {
         </h4>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 lg:gap-[22px]">
-        <div className="col-span-7">
+        <div className="col-span-7 flex-center justify-center items-center gap-4 md:gap-6">
           <ChatSection />
+          <ChatReactions />
         </div>
         <div className="border col-span-5">
           <Analysis />
