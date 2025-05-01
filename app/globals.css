@@ -3,9 +3,11 @@
 @theme inline {
   /* color */
   --color-black: #010205;
-  --color-primary-500: #014fcc;
+  --color-primary-400: #014fcc;
+  --color-primary-500: #002868;
   --color-primary-600: #0f3676;
   --color-tertiary-500: #fce38a;
+  --color-secondary-200: #f2f3f3;
   --color-secondary-400: #05131db2;
   --color-white: #ffffff;
 
@@ -15,6 +17,7 @@
   --font-questrail: var(--font-questrail);
   --font-plus_jakarta_sans: var(--font-plus_jakarta_sans);
   --font-poppins: var(--font-poppins);
+  --font-geist: var(--font-geist);
 
   /* shadow */
   --shadow-custom: rgba(0, 0, 0, 0.3) 15.57px 16.69px 20.47px;
@@ -66,5 +69,15 @@
   }
   .container {
     @apply max-w-[1440px] mx-auto w-full px-[24px] md:px-[40px];
+  }
+
+  .h3-semibold {
+    @apply text-[18px] font-semibold;
+  }
+  .h3-normal {
+    @apply text-[18px] font-normal;
+  }
+  .h3-bold {
+    @apply text-[18px] font-bold;
   }
 }

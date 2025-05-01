@@ -1,4 +1,5 @@
 import {
+  Geist,
   Lato,
   Manrope,
   Plus_Jakarta_Sans,
@@ -34,6 +35,11 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
 });
+const geist = Geist({
+  variable: "--font-geist",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
 
 export const metadata = {
   title: "SalesRank.AI",
@@ -44,7 +50,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${manrope.variable} ${lato.variable}  ${questrail.variable} ${plus_jakarta_sans.variable} ${poppins.variable} antialiased max-w-[1920px] mx-auto`}
+        className={`${manrope.variable} ${lato.variable}  ${questrail.variable} ${plus_jakarta_sans.variable} ${poppins.variable} ${geist.variable} antialiased max-w-[1920px] mx-auto`}
       >
         <div
           className="pointer-events-none fixed top-0 left-0 w-full h-full z-0 opacity-5 bg-[url('../public/assets/images/backgroundnoise.png')] bg-repeat"
