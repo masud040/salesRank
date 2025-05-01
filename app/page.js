@@ -1,9 +1,13 @@
 import Banner from "./components/home/banner/Banner";
+import Coaching from "./components/home/coaching/Coaching";
 
 export default function Home() {
   return (
-    <div className="container">
+    <>
       <Banner />
-    </div>
+      <div className="bg-gradient-to-r from-primary-600 to-primary-500">
+        <Coaching />
+      </div>
+    </>
   );
 }

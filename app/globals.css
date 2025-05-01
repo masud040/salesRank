@@ -3,7 +3,9 @@
 @theme inline {
   /* color */
   --color-black: #010205;
-  --color-primary-600: #00245f;
+  --color-primary-500: #014fcc;
+  --color-primary-600: #0f3676;
+  --color-tertiary-500: #fce38a;
   --color-secondary-400: #05131db2;
   --color-white: #ffffff;
 
