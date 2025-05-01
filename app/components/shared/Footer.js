@@ -13,7 +13,7 @@ import { IoMdMail } from "react-icons/io";
 import FooterLink from "./FooterLink";
 export default function Footer() {
   return (
-    <div className="py-12 flex flex-col lg:flex-row justify-between items-start font-manrope gap-10">
+    <div className="pt-12 flex flex-col lg:flex-row justify-between items-start font-manrope gap-10">
       <div className="flex-1 w-full space-y-[30px]">
         <Image src={Logo} alt="Logo" width={100} height={50} />
         <p className="text-[#335386] text-[14px]">

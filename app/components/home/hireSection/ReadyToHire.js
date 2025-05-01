@@ -1,6 +1,6 @@
 export default function ReadyToHire() {
   return (
-    <div className="bg-gradient-to-r from-primary-600 to-primary-400 rounded-[24px]  font-manrope py-20 lg:py-32 flex-column items-center gap-6 lg:gap-12">
+    <div className="bg-gradient-to-r from-primary-600 to-primary-400 rounded-[24px]  font-manrope py-20 lg:py-32 flex-column items-center gap-6 lg:gap-8">
       <div className="space-y-3 text-center">
         <h3 className="text-[30px] md:text-[38px] text-white font-semibold">
           Ready to Hire Smarter?
