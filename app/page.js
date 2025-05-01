@@ -2,6 +2,7 @@ import Banner from "./components/home/banner/Banner";
 import Coaching from "./components/home/coaching/Coaching";
 import Courses from "./components/home/courses/Courses";
 import FAQ from "./components/home/FAQ/FAQ";
+import TestimonialCotainer from "./components/home/testimonials/testimonialCotainer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </div>
       <Courses />
       <FAQ />
+      <TestimonialCotainer />
     </>
   );
 }

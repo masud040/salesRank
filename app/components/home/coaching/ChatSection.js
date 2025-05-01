@@ -1,8 +1,6 @@
 "use client";
-import ArrowUp from "@/public/assets/icons/ArrowUp.svg";
-import Image from "next/image";
 import { useState } from "react";
-
+import { FaArrowUp } from "react-icons/fa6";
 export default function ChatSection() {
   const [suggestions] = useState([
     {
@@ -58,7 +56,7 @@ export default function ChatSection() {
           />
           <div className="bg-primary-500 rounded-[8px] p-[12px] md:p-[14px] flex gap-2 md:gap-2.5 text-white h5-normal md:text-[17.09px] font-medium">
             <input type="button" value="Send" />
-            <Image src={ArrowUp} alt="Arrow Up" height={20} width={20} />
+            <FaArrowUp size={20} />
           </div>
         </div>
       </form>
