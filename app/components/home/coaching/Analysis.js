@@ -4,9 +4,10 @@ import Image from "next/image";
 export default function Analysis() {
   return (
     <div className="bg-secondary-200 p-[30px] rounded -[20px] w-full space-y-5">
-      <h1 className="text-[32px] font-manrope font-bold text-secondary-600">
+      <h1 className="text-[24px] md:text-[32px] font-manrope font-bold text-secondary-600">
         Real-time Analysis
       </h1>
+      {/* level progress bar */}
       <div className="bg-white rounded-lg p-4 border space-y-3 border-[#E7E7E7]">
         <div className="flex-start gap-1">
           <div className="h-[19px] w-[19px]">
@@ -29,6 +30,7 @@ export default function Analysis() {
           <p className="text-right text-xs text-secondary-500">60%</p>
         </div>
       </div>
+      {/* level status */}
       <div className="bg-white rounded-lg p-4 border space-y-3 border-[#E7E7E7]">
         <div className="flex-start gap-1">
           <div className="h-[24px] w-[24px]">

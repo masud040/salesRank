@@ -20,7 +20,7 @@ export default function Coaching() {
           <ChatSection />
           <ChatReactions />
         </div>
-        <div className="col-span-12 lg:col-span-5">
+        <div className="col-span-12 lg:col-span-5 space-y-6">
           <Analysis />
           <QuickActions />
         </div>

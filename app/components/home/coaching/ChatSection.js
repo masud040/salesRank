@@ -28,7 +28,7 @@ export default function ChatSection() {
         <p className="h3-bold text-[#1B1B1B] font-manrope">AI Sales Coach</p>
       </div>
       {/* chats */}
-      <div className="px-4 md:px-8 py-6 flex-1 min-h-[350px]">
+      <div className="px-4 md:px-8 py-6 flex-1 min-h-[337px]">
         <div className="flex items-start gap-4 md:gap-6">
           <div className="rounded-full bg-[#D9D9D9] p-4 md:p-5" />
           <div className="bg-white px-6 py-2 rounded-[8px]">
