@@ -29,7 +29,7 @@ Clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/masud040/salesRank.git
-cd salesrank-ai
+cd salesRank
 npm install --force
 npm run dev
 ```
