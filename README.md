@@ -1,5 +1,11 @@
 # SalesRank.AI – AI-Powered Sales Coach Website
 
+## Live Site
+
+🔗 <a href="https://sales-rank.vercel.app" target="_blank">SalesRank.AI</a>
+
+---
+
 Welcome to the repository for **SalesRank.AI**, an advanced AI-powered web application designed to help users improve their sales strategies with real-time coaching, data analysis, and intelligent suggestions.
 
 This modern frontend application is built using **Next.js** and styled with **Tailwind CSS**, offering a fast, responsive, and elegant experience across devices.
