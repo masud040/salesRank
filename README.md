@@ -4,6 +4,10 @@ Welcome to the repository for **SalesRank.AI**, an advanced AI-powered web appli
 
 This modern frontend application is built using **Next.js** and styled with **Tailwind CSS**, offering a fast, responsive, and elegant experience across devices.
 
+![Screenshot_Desktop_Screen](./public/assets//images/desktop-screen.png)
+
+![Screenshot_Mobile_Screen](./public/assets//images/mobile-screen.png)
+
 ## Features
 
 - Modern, responsive UI built with Next.js and Tailwind CSS
