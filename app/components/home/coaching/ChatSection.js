@@ -42,21 +42,21 @@ export default function ChatSection() {
           {suggestions.map((suggestion) => (
             <button
               key={suggestion.id}
-              className="h5-normal font-geist text-center text-primary-500 bg-primary-500/8 rounded-[36px]  py-2 md:py-3 px-[17px]"
+              className="h5-normal font-geist text-center text-primary-500 bg-primary-500/8 rounded-[36px]  py-1 md:py-3 px-2 md:px-[17px]"
             >
               {suggestion.text}
             </button>
           ))}
         </div>
-        <div className="flex-between gap-3">
+        <div className="flex-between gap-2 md:gap-3">
           <input
             type="text"
-            className="flex-1 py-[10px] md:py-[17px]  px-[10px] md:px-[23px] rounded-sm border border-[#E5E7EB] h5-normal focus:outline focus:outline-blue-600"
+            className="w-2/3 md:w-full py-[10px] md:py-[17px]  px-[10px] md:px-[23px] rounded-sm border border-[#E5E7EB] h5-normal focus:outline focus:outline-blue-600"
             placeholder="Ask anything you need"
           />
-          <div className="bg-primary-500 rounded-[8px] p-[12px] md:p-[14px] flex gap-2 md:gap-2.5 text-white h5-normal md:text-[17.09px] font-medium">
+          <div className="bg-primary-500 rounded-[8px] p-[12px] md:p-[14px] flex items-center gap-2 md:gap-2.5 text-white text-[14px] md:text-[17.09px] font-medium">
             <input type="button" value="Send" />
-            <FaArrowUp size={20} />
+            <FaArrowUp className="size-4 md:size-6" />
           </div>
         </div>
       </form>

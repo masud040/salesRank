@@ -6,7 +6,7 @@ import Image from "next/image";
 import Count from "./Count";
 export default function Banner() {
   return (
-    <section className="container py-12 md:py-16 grid grid-cols-12 gap-0 lg:gap-10">
+    <section className="container py-0 md:py-16 grid grid-cols-12 gap-0 lg:gap-10">
       {/* banner left section */}
       <div className="col-span-12 lg:col-span-5 order-2 lg:order-1 mt-16 lg:mt-0">
         <h1 className="font-medium text-[42px] md:text-[60px] lg:text-[80px] font-manrope max-w-full lg:max-w-[516px] ">
