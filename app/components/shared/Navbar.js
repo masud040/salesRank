@@ -4,10 +4,9 @@ import Logo from "@/public/assets/icons/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { IoMenu } from "react-icons/io5";
+import { RiMenu3Fill } from "react-icons/ri";
 import { RxCross1 } from "react-icons/rx";
 import Navlink from "./Navlink";
-
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -43,7 +42,7 @@ export default function Navbar() {
 
       {/* Mobile Menu Button */}
       <button onClick={toggleMenu} className="lg:hidden">
-        {menuOpen ? <RxCross1 size={24} /> : <IoMenu size={24} />}
+        {menuOpen ? <RxCross1 size={24} /> : <RiMenu3Fill size={24} />}
       </button>
 
       {/* Mobile Menu Drawer */}
