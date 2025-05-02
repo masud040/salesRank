@@ -53,23 +53,25 @@ export default function ChatSection() {
           </div>
         </div>
 
-        <div className=" flex-end">
-          <div className="h5-normal md:h3-normal bg-white px-4 py-1.5 rounded-full text-end w-fit">
-            {message}
+        {message && (
+          <div className=" flex-end">
+            <div className="h5-normal md:h3-normal bg-white px-4 py-1.5 rounded-full text-end w-fit">
+              {message}
+            </div>
           </div>
-        </div>
+        )}
       </div>
       <form
         onSubmit={handleSubmit}
         className="bg-white px-4 md:px-8 pt-4 pb-6 rounded-b-[12px] space-y-4"
       >
-        <div className="flex items-center gap-3 flex-wrap md:flex-nowrap">
+        <div className="flex items-center gap-3 flex-wrap">
           {suggestions.map((suggestion) => (
             <input
               type="button"
               key={suggestion.id}
               onClick={handleChange}
-              className="h5-normal font-geist text-center text-primary-500 bg-primary-500/8 rounded-[36px]  py-1 md:py-3 px-2 md:px-[17px]"
+              className="h5-normal font-geist text-center text-primary-500 bg-primary-500/8 rounded-[36px] py-1 md:py-3 px-2 md:px-[17px]"
               value={suggestion.text}
             />
           ))}
@@ -82,7 +84,7 @@ export default function ChatSection() {
         <div className="flex-between gap-2 md:gap-3">
           <input
             type="text"
-            className="w-2/3 md:w-full py-[10px] md:py-[17px]  px-[10px] md:px-[23px] rounded-sm border border-[#E5E7EB] h5-normal focus:outline focus:outline-blue-600"
+            className="w-2/3 py-[10px] md:py-[17px]  px-[10px] md:px-[23px] rounded-sm border border-[#E5E7EB] h5-normal focus:outline focus:outline-blue-600"
             value={instructions}
             onChange={handleChange}
             placeholder="Ask anything you need"
