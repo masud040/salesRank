@@ -2,7 +2,6 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { useSwiper } from "swiper/react";
 import "swiper/swiper-bundle.css";
 export default function TestimonialCard({ clientName, activeIndex }) {
-  console.log(activeIndex);
   const swiper = useSwiper();
 
   return (
