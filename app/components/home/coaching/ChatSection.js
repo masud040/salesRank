@@ -84,7 +84,7 @@ export default function ChatSection() {
         <div className="flex-between gap-2 md:gap-3">
           <input
             type="text"
-            className="w-2/3 py-[10px] md:py-[17px]  px-[10px] md:px-[23px] rounded-sm border border-[#E5E7EB] h5-normal focus:outline focus:outline-blue-600"
+            className="w-2/3 md:w-full py-[10px] md:py-[17px]  px-[10px] md:px-[23px] rounded-sm border border-[#E5E7EB] h5-normal focus:outline focus:outline-blue-600"
             value={instructions}
             onChange={handleChange}
             placeholder="Ask anything you need"
